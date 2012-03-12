@@ -10,7 +10,7 @@ namespace Minifier
 	/// The YUI Compressor is a JavaScript compressor which, in addition to removing comments and white-spaces, obfuscates local variables using the smallest possible variable name. This obfuscation is safe, even when using constructs such as 'eval' or 'with' (although the compression is not optimal is those cases) Compared to jsmin, the average savings is around 20%.
 	/// </summary>
 	[ComVisible(true)]
-	[Guid("189CED1D-1D98-433C-9783-D8811A9E663B")]
+	[Guid("596D1CE3-D0E7-4358-913B-6AC040D77470")]
 	[CodeGeneratorRegistration(typeof(YUICompressor), "YUI Compressor", vsContextGuids.vsContextGuidVCSProject, GeneratesDesignTimeSource = true)]
 	[ProvideObject(typeof(YUICompressor))]
 	public class YUICompressor : BaseCodeGeneratorWithSite

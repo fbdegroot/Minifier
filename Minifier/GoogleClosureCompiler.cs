@@ -12,7 +12,7 @@ namespace Minifier
 	/// The Closure Compiler is a tool for making JavaScript download and run faster. It is a true compiler for JavaScript. Instead of compiling from a source language to machine code, it compiles from JavaScript to better JavaScript. It parses your JavaScript, analyzes it, removes dead code and rewrites and minimizes what's left. It also checks syntax, variable references, and types, and warns about common JavaScript pitfalls.
 	/// </summary>
 	[ComVisible(true)]
-	[Guid("52B316AA-1997-4c81-9969-83604C09EEB4")]
+	[Guid("8B36F865-EF94-44C0-9037-9764F218E399")]
 	[CodeGeneratorRegistration(typeof(GoogleClosureCompiler), "Google Closure Compiler", vsContextGuids.vsContextGuidVCSProject, GeneratesDesignTimeSource = true)]
 	[ProvideObject(typeof(GoogleClosureCompiler))]
 	public class GoogleClosureCompiler : BaseCodeGeneratorWithSite

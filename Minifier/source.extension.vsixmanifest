@@ -3,7 +3,7 @@
 	<Identifier Id="Minifier">
 		<Name>Minifier</Name>
 		<Author>Fabian de Groot</Author>
-		<Version>0.1.1</Version>
+		<Version>0.1.1.1</Version>
 		<Description xml:space="preserve">Extension which adds custom tools for Google Closure Compiler (js files) and the YUI Compressor (css files).</Description>
 		<Locale>1033</Locale>
 		<Icon>icon.png</Icon>
